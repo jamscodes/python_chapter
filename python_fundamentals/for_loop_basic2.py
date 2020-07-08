@@ -132,7 +132,33 @@
 # Example: reverse_list([37,2,1,-9]) should return [-9,1,2,37]
 
 # def reverseList(list):
-#     list.reverse()
+#     list.reverse() # I guess this counts as a "built in" solution and not a "skilled" solution
 #     return list
+
+# def reverseList(list):
+#     countdown = len(list) - 1
+#     countup = 0
+
+#     while countup < countdown:
+#         temp = list[countdown]
+
+#         list[countdown] = list[countup]
+#         list[countup] = temp
+
+#         countup += 1
+#         countdown -= 1
     
+#     return list
+
+# def reverseList(list):
+#     countdown = len(list) - 1
+#     for x in range(0, countdown):
+#         temp = list[countdown]
+
+#         list[countdown] = list[x]
+#         list[x] = temp
+
+#         countdown -= 1
+#     return list
+
 # print(reverseList([37,2,1,-9]))
