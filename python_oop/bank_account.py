@@ -29,6 +29,6 @@ Jonathan = BankAccount(400)
 
 Jonathan.deposit(250).deposit(250).deposit(250).withdraw(150).yield_interest().display_account_info()
 
-Andrew = BankAccount()
+Andrew = BankAccount(0,0.05)
 
 Andrew.deposit(250).deposit(250).withdraw(150).withdraw(150).withdraw(150).withdraw(150).yield_interest().display_account_info()
